@@ -1,0 +1,24 @@
+{
+  "name": "bs4project",
+  "version": "1.0.0",
+  "description": "start bs4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGORVK/bs4project.git"
+  },
+  "author": "Igor Khaletskyy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IGORVK/bs4project/issues"
+  },
+  "homepage": "https://github.com/IGORVK/bs4project#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
