@@ -6749,5 +6749,54 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+/*section header*/
+#header {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/greenfield_insurance_startup.jpg) center/cover no-repeat fixed;
+  /*top navigation*/
+  /*animation for igo-scroll-anim*/
+  /*end of animation for shushi-btn*/ }
+  #header .vertical-line {
+    width: 2px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 2rem; }
+  #header .nav-item:not(:last-child) a {
+    color: #fff; }
+  #header .navbar-toggler .bar1,
+  #header .navbar-toggler .bar2,
+  #header .navbar-toggler .bar3 {
+    display: block;
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    background: #fff;
+    transition: all 0.3s; }
+  #header .navbar-toggler:focus {
+    outline-color: transparent; }
+  @media (max-width: 992px) {
+    #header .igo-nav-btn {
+      display: inline-block;
+      padding: 0.5rem 1rem; } }
+  #header .change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px); }
+  #header .change .bar2 {
+    opacity: 0; }
+  #header .change .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px); }
+  #header .header-wr-js {
+    height: auto; }
+
+@media (min-width: 993px) {
+  #header {
+    height: 100vh; }
+    #header .header-wr-js {
+      height: calc(100vh - 64px); } }
+/********************/
+/****section next***/
+/******************/
+#next {
+  height: 50vh; }
 
 /*# sourceMappingURL=main.css.map */

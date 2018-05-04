@@ -1,12 +1,130 @@
 // My variable overrides
-
-
-
-
 @import "node_modules/bootstrap/scss/bootstrap";
 
 
 
 
 
+
+/*section header*/
+
+
+#header{
+	width: 100%;
+	height: auto;
+
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/greenfield_insurance_startup.jpg)center/cover no-repeat fixed;
+
+	
+	/*top navigation*/
+	.vertical-line {
+	width: 2px;
+	height: auto;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: 0 2rem;
+}
+	.nav-item:not(:last-child) a {
+		color: #fff;
+	}
+
+	.navbar-toggler .bar1,
+	.navbar-toggler .bar2,
+	.navbar-toggler .bar3 {
+		display: block;
+		width: 23px;
+		height: 3px;
+		margin: 5px;
+		background: #fff;
+		transition: all 0.3s;
+	}
+	
+	.navbar-toggler:focus{
+		outline-color: transparent;
+	}
+	
+	@media (max-width:992px){
+	.igo-nav-btn{
+		display: inline-block;
+		padding: 0.5rem 1rem;
+	  }
+	}
+
+	.change .bar1 {
+		transform: rotate(-45deg) translate(-5px, 6px);
+	}
+
+	.change .bar2 {
+		opacity: 0;
+	}
+
+	.change .bar3 {
+		transform: rotate(45deg) translate(-5px, -6px);
+	}
+
+	.header-wr-js{
+		height: auto;
+		
+	}
+	
+
+	
+	/*animation for igo-scroll-anim*/
+//.igo-scroll-anim{
+//	width: 100%;
+//	position: relative;
+//}
+//
+//.igo-scroll-anim-down{
+//    padding: 0px 10px;
+//	display: block;
+//	position: absolute;
+//	border-radius: 10px;
+//	transition: all 2s ease;
+//	animation: fromBottom;
+//	animation-duration: 4s;
+//	animation-iteration-count: infinite;
+//}
+//@media (max-width:576px){
+//	.igo-scroll-anim-down{display: none;}
+//}
+//
+//
+//.igo-scroll-anim-down:hover{
+//	color:  #d3325f;
+//}
+//@keyframes fromBottom{
+//	0%{
+//		transform: translateY(-40px);
+//	}
+//	50%{
+//		transform: translateY(-20px);
+//	}
+//	100%{
+//		transform: translateY(-40px);
+//	}
+//}
+
+/*end of animation for shushi-btn*/
+	
+
+}
+
+@media(min-width: 993px){
+	#header{
+		height: 100vh;
+		
+			.header-wr-js{
+		height:calc(100vh - 64px);	
+		}
+	}
+}
+
+/********************/
+/****section next***/
+/******************/
+
+#next{
+	height: 50vh;
+	
+}
 
